@@ -1,3 +1,3 @@
-# Spigot1.8.8Template
+# SimpleVoteRewards
 
-A template for plugins that use Spigot 1.8.8.
+Commission

@@ -1,6 +1,14 @@
-name: ${project.name}
-description: ${project.description}
-version: ${project.version}
-author: regulad # fixme
-
-main: ${project.groupId}.${project.artifactId}.${project.name}
+author: Sandis
+version: 1.0
+name: SimpleVoteRewards
+main: com.ssandiss.SimpleVoteRewards.Main
+depend:
+    - Vault
+    - Votifier
+commands:
+    svr:
+        description: Saves your inventory + your current amount of money to vote rewards.
+    SetVoteRewards:
+        description: Saves your inventory + your current amount of money to vote rewards.
+    SetVoteReward:
+        description: Saves your inventory + your current amount of money to vote rewards.
